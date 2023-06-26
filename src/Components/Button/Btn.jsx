@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Btn( {BtnName, BtnAction, type}) {
+function Btn({ BtnName, BtnAction, type }) {
   return (
     <button onClick={BtnAction} type={type}>{BtnName}</button>
   )

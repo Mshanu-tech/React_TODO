@@ -20,10 +20,9 @@ const TodoSlice = createSlice({
             const updatedTask = action.payload;
             // console.log(updatedTask);
             state.Task = state.Task.map((task) =>
-              task.id === updatedTask.id ? updatedTask : task
+                task.id === updatedTask.id ? updatedTask : task
             );
-          }
-          
+        }
     }
 })
 

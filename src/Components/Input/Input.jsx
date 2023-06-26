@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Input({value}) {
+function Input({ action, value }) {
 
   return (
     <>
-    <input onChange={value} type="text" name="userInput" id=""  required/>
+      <input defaultValue={value} onChange={action} type="text" name="userInput" id="" required />
     </>
   )
 }
